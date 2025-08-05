@@ -20,7 +20,7 @@ def collate_fn(sample, processor = "openai/clip-vit-large-patch14", return_tenso
             processor = store[key]
         else:
             from transformers import CLIPProcessor
-            processor = CLIPProcessor.from_pretrained("openai/clip-vit-large-patch14")
+            processor = CLIPProcessor.from_pretrained(processor)
             store[key] = processor
     max_length = min(processor.tokenizer.model_max_length if hasattr(processor, "tokenizer") else processor.model_max_length, max_token_size)
     return processor(text = sample, return_tensors = return_tensors, max_length = max_length, padding = padding, truncation = truncation)
