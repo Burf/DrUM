@@ -8,11 +8,11 @@
 
 This repository hosts the official implementation of:
 
-[Hyungjin Kim](https://scholar.google.com/citations?user=HrMSrN0AAAAJ&hl), [Seokho Ahn](https://scholar.google.com/citations?user=EputdKkAAAAJ&hl), and [Young-Duk Seo](https://mysid88.github.io/homepage/home), **Draw Your Mind: Personalized Generation via Condition-Level Modeling in Text-to-Image Diffusion Models**, [Paper arXiv Link](https://arxiv.org/abs/2508.03481)
+[Hyungjin Kim](https://scholar.google.com/citations?user=HrMSrN0AAAAJ&hl), [Seokho Ahn](https://scholar.google.com/citations?user=EputdKkAAAAJ&hl), and [Young-Duk Seo](https://mysid88.github.io/homepage/home), **Draw Your Mind: Personalized Generation via Condition-Level Modeling in Text-to-Image Diffusion Models**, [[iccv](https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_Draw_Your_Mind_Personalized_Generation_via_Condition-Level_Modeling_in_Text-to-Image_ICCV_2025_paper.pdf)] [[supp](https://openaccess.thecvf.com/content/ICCV2025/supplemental/Kim_Draw_Your_Mind_ICCV_2025_supplemental.pdf)] [[arXiv](https://arxiv.org/abs/2508.03481)]
 
 
 ## News
-
+- [2025.11.04]: ICCV paper and supplementary materials released
 - [2025.08.05]: Pre-trained weights available on [🤗 HuggingFace](https://huggingface.co/Burf/DrUM)
 - [2025.08.05]: Repository created
 
@@ -132,11 +132,13 @@ To train your own DrUM: see [train.py](train.py)
 ## Citation
 
 ```
-@inproceedings{kim2025drum,
-	title={Draw Your Mind: Personalized Generation via Condition-Level Modeling in Text-to-Image Diffusion Models},
-	author={Hyungjin Kim, Seokho Ahn, and Young-Duk Seo},
-	booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-	year={2025}
+@InProceedings{kim2025drum,
+    author    = {Kim, Hyungjin and Ahn, Seokho and Seo, Young-Duk},
+    title     = {Draw Your Mind: Personalized Generation via Condition-Level Modeling in Text-to-Image Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {17171-17180}
 }
 ```
 
